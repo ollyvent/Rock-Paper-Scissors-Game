@@ -8,7 +8,11 @@ var myLosses = 0;
 var myTies = 0;
 
 // add a for loop 
-for(i = 0; i < 10; i++){
+for(i = 0; i < 9; i++){
     
 //create function to randomize computer options
+var computerRndm =  computerOptions[Math.floor(Math.random() * computerOptions.length)];
+// alert(computerRndm);
+
+
 }
